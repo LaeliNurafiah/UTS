@@ -32,7 +32,7 @@ public class No3 {
         }
         System.out.println("Hasil Transpose Matriks : ");
         for(i = 0; i < n; i++){
-            for(j = 0; j < m; j++){
+            for(j = 0; j < m; j++){ 
                 System.out.print(transpose[i][j] + "\t");
                 
         
